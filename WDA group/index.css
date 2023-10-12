@@ -1,3 +1,9 @@
+/* PADDING AND MARGIN */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* LOAD FONTS */
 @font-face {
     font-family: calibreRegular;
@@ -7,6 +13,17 @@
 @font-face {
     font-family: calibreBold;
     src: url(fonts/Calibre-Bold.otf);
+}
+
+/* COMMON STYLES - TEXT */
+h1 {
+    font-family: calibreBold, Arial, Helvetica, sans-serif;
+    font-size: calc(80em/16);
+}
+
+.q-a-text {
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    font-size: calc(30em/16);
 }
 
 .gridContainer {
