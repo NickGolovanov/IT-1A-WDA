@@ -45,5 +45,5 @@ h1 {
 
 .gridContainer {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 9rem repeat(2, 1fr) 9rem;
 }
