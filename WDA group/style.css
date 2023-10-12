@@ -96,3 +96,27 @@ details.faq[open]>.question-container>.question-caret {
 .column-right {
     grid-column: -2 / -1;
 }
+
+.Contact_form{
+    background-color: #dcf1f9;
+    grid-column: 1/5;
+    width: 100%;
+}
+
+.Contact_name{
+    margin-left: 9rem;
+}
+
+.Form{
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+
+.Contact_name h1{
+    color: #799dab;
+}
+form > p > label{
+    color: #799dab;
+    font-size: 5rem;
+    font-family: calibreRegular;
+}
