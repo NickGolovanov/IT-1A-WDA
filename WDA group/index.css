@@ -1,3 +1,14 @@
+/* LOAD FONTS */
+@font-face {
+    font-family: calibreRegular;
+    src: url(fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: calibreBold;
+    src: url(fonts/Calibre-Bold.otf);
+}
+
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
