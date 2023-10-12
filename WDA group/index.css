@@ -1,0 +1,98 @@
+/* PADDING AND MARGIN */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* LOAD FONTS */
+@font-face {
+    font-family: calibreRegular;
+    src: url(fonts/Calibre-Regular.otf);
+}
+
+@font-face {
+    font-family: calibreBold;
+    src: url(fonts/Calibre-Bold.otf);
+}
+
+/* COMMON STYLES - TEXT */
+h1 {
+    font-family: calibreBold, Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+}
+
+.q-a-text {
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    font-size: 1.836rem;
+}
+
+/* COMMON STYLES - COLOR */
+.bb-bluegray {
+    color: #799dab;
+}
+
+.bb-bluegray-fill {
+    background-color: #799dab;
+}
+
+.bb-lightbluegray {
+    background-color: #dcf1f9;
+}
+
+.bb-lightbluegray-fill {
+    background-color: #dcf1f9;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 9rem repeat(2, 1fr) 9rem;
+}
+
+/* BODY LAYOUT */
+#section-faq {
+    padding: 1.25rem 0rem 4rem 0rem;
+    row-gap: 1.6rem;
+
+    display: flex;
+    flex-direction: column;
+
+    /* position in grid */
+    grid-column: 2 / 4;
+}
+
+/* FAQ */
+.faq {
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.question-container {
+    padding: 1rem 2rem 1rem 1rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.q-a-text {
+    width: 100%; /* make text fill all the empty space */
+}
+
+.answer-container {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+details.faq[open]>.question-container>.question-caret {
+    /* when the faq is open, the caret is flipped upside down */
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+/* EMPTY COLUMNS */
+.column-left {
+    grid-column: 1 / 2;
+}
+
+.column-right {
+    grid-column: -2 / -1;
+}
