@@ -18,12 +18,12 @@
 /* COMMON STYLES - TEXT */
 h1 {
     font-family: calibreBold, Arial, Helvetica, sans-serif;
-    font-size: calc(80em/16);
+    font-size: 5rem;
 }
 
 .q-a-text {
     font-family: calibreRegular, Arial, Helvetica, sans-serif;
-    font-size: calc(30em/16);
+    font-size: 1.836rem;
 }
 
 /* COMMON STYLES - COLOR */
