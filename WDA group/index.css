@@ -26,6 +26,23 @@ h1 {
     font-size: calc(30em/16);
 }
 
+/* COMMON STYLES - COLOR */
+.bb-bluegray {
+    color: #799dab;
+}
+
+.bb-bluegray-fill {
+    background-color: #799dab;
+}
+
+.bb-lightbluegray {
+    background-color: #dcf1f9;
+}
+
+.bb-lightbluegray-fill {
+    background-color: #dcf1f9;
+}
+
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
