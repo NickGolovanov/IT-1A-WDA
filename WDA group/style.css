@@ -120,3 +120,26 @@ form > p > label{
     font-size: 5rem;
     font-family: calibreRegular;
 }
+
+footer{
+    grid-column: 1/5;
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: right;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-right: 9rem;
+}
+
+footer > p.company{
+    font-family: calibreBold, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+footer > p{
+    font-size: 1.875rem;
+}
+
+footer > p > span{
+    font-family: calibreBold, Arial, Helvetica, sans-serif;
+}
