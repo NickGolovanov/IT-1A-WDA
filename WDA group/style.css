@@ -226,3 +226,26 @@ footer > p{
 footer > p > span{
     font-family: calibreBold, Arial, Helvetica, sans-serif;
 }
+/* header*/
+.header {
+    display: flex;
+    height: 4.5rem;
+    padding-top: 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: var(--pos, 6rem);
+    flex-shrink: 0;
+
+    border-radius: var(--pos, 0rem);
+    background: var(--bb-lightbluegray, #DCF1F9);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.headerText {
+    font-family: calibreBold;
+    src: url(fonts/Calibre-Bold.otf);
+    text-decoration: none;
+    color: #799dab;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
