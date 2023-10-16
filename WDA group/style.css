@@ -186,19 +186,45 @@ details.faq[open]>.question-container>.question-caret {
     width: 100%;
 }
 
-.Contact_name{
-    margin-left: 9rem;
+input {
+    font-size: 5rem;
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    /* width: fit-content; */
+    border: #dcf1f9;
+    width: 20rem;
+    border-bottom:#799dab 0.5rem solid;
+    line-height: 1;
+    text-align: center;
+}
+
+input::placeholder {
+    color: #799dab;
+}
+
+.contactsubmit {
+    border: #799dab solid 0.5rem;
+    border-radius: 2rem;
 }
 
 .Form{
+    padding-bottom: 1rem;
     margin-left: 9rem;
-    margin-top: 1rem;
+    margin-right: 9rem;
 }
 
 .Contact_name h1{
     color: #799dab;
+    margin-left: 9rem;
+    margin-right: 9rem;
 }
-form > p > label{
+
+form {
+    color: #799dab;
+    font-size: 5rem;
+    font-family: calibreRegular;
+}
+
+.confirmation {
     color: #799dab;
     font-size: 5rem;
     font-family: calibreRegular;

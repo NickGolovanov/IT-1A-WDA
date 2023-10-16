@@ -99,16 +99,31 @@
                 <h1>Contact form</h1>
             </div>
             <div class="Form">
-                <form action="form.php" method="post">
-                    <p>
-                        <label for="Name">
-                            Hello I'm <input type="text" name="" id="">
-                            from company <input type="text" name="" id="">
-                            and I'm looking for <input type="text" name="" id="">
-                            could you plase get back to me at <input type="email" name="" id="">
-                        </label>
-                    </p>
-                </form>
+                <?php
+                if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                    $name = $_POST['name'];
+                    $company = $_POST['company'];
+                    echo "
+                            <div class='confirmation'>
+                                <p>Dear, $name  from $company,</p> 
+                                <p>We received your information about service that you want to purchase.</p>
+                                <p>We will contact you soon.</p>
+                            </div>
+                        ";
+    
+                } 
+                else {
+                    echo "
+                            <form action='' method='post'>
+                                Hello I'm <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='name' type='text' name='name' id='name'>
+                                from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name='company' id='company'>
+                                and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='service' type='text' name='service' id='service'>
+                                could you plase get back to me at <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='email' type='email' name='email' id='email'>
+                                <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit'>
+                            </form>
+                        ";
+                    }
+                ?>
             </div>
         </div>
 
