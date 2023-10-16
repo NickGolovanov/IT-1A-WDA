@@ -74,6 +74,7 @@
                 </div>
             </details>
         </section>
+        <div class="column-right bb-lightbluegray-fill"></div>
 
         <div class="testimonials">
             <h1 class="bb-bluegray">testimonials</h1>
