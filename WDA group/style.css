@@ -249,3 +249,18 @@ footer > p > span{
     font-size: 1.875rem;
     font-weight: 600;
 }
+/* testimonials */
+.testimonials{
+    grid-column: 2 / 4;
+}
+.tscroll{
+    background-color: #dcf1f9;
+    margin: 3rem 3rem 3rem 3rem;
+    gap: 2em;
+    overflow:auto;
+    white-space: nowrap;
+    width: 100%;
+}
+.titem{
+    display: inline-block;
+}
