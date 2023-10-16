@@ -280,19 +280,80 @@ footer > p > span{
     font-weight: 600;
 }
 /* testimonials */
-.testimonials{
-    grid-column: 2 / 4;
+.testimonials {
+    grid-column: 2 / 5;
+    background-color: #799dab;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
 }
-.tscroll{
-    background-color: #dcf1f9;
-    margin: 3rem 3rem 3rem 3rem;
-    gap: 2em;
-    overflow:auto;
+
+.tScroll {
+    margin-top: 7rem;
+    gap: 10em;
+    overflow: auto;
     white-space: nowrap;
-    width: 100%;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    background-color: #799dab;
+    padding-bottom: 2rem;
 }
-.titem{
+
+.tItem {
     display: inline-block;
+    background-color: #dcf1f9;
+    width: 40%;
+    border-radius: 1rem;
+    font-family: calibreRegular;
+    src: url(fonts/Calibre-Regular.otf);
+    font-size: 2rem;
+
+}
+
+.tItem+.tItem {
+    margin-left: 3rem;
+}
+
+.tEmptyContainer {
+    grid-column: 1/2;
+    background-color: #799dab;
+}
+
+.tGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tAuthor {
+    grid-column: 1/2;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.tReview {
+    white-space: break-spaces;
+    grid-column: 1/4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.tScroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #799dab;
+    border-radius: 10px;
+}
+
+.tScroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #799dab;
+
+}
+
+.tScroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dcf1f9;
+    margin-top: 2rem;
 }
 
 /* homepage */

@@ -86,21 +86,27 @@
         </section>
         <div class="column-right bb-lightbluegray-fill"></div>
 
+        <div class="tEmptyContainer"></div>
         <div class="testimonials">
-            <h1 class="bb-bluegray">testimonials</h1>
-
-            <div class="tscroll">
-                <div class="titem">
-                    <p>Jan dornbvoos</p>
-                    <p>lorem ipsum dolor sit amet, consectetur adip</p>
+            <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">testimonials</h1>
+            <div class="tScroll">
+                <div class="tItem">
+                    <div class="tGrid">
+                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="titem">
-                    <p>Jan dornbvoos</p>
-                    <p>lorem ipsum dolor sit amet, consectetur adip</p>
+                <div class="tItem">
+                    <div class="tGrid">
+                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
                 </div>
-                <div class="titem">
-                    <p>Jan dornbvoos</p>
-                    <p>lorem ipsum dolor sit amet, consectetur adip</p>
+                <div class="tItem">
+                    <div class="tGrid">
+                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
         </div>
