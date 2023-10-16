@@ -66,7 +66,59 @@
             To empowering people & businesses with software solutions.
         </p>
         <div class="column-right bb-bluegray-fill waw-rowspan"></div>
-
+        <div id="Our_services">
+        <h1 class="bb-bluegray">our services</h1>
+        <div class="hscroll">
+            <div class="servicecontainer">
+                <div id="service1">
+                    <div id="text01">
+                        <h2><b>circle workspace</b></h2>
+                        <p> Display information from applications directly in Circle Workspace. 
+                        At a glance, see all your unread emails, appointments, news, recently edited documents and more.</p>
+                    </div>
+                    <div id="text02">
+                        <h2><b>document management</b></h2>
+                        <p>Bring all documents together in one online workplace. So you can work online and offline from any device. 
+                        The documents app bundles and brings structure to Office 365, the fileserver, OneDrive and SharePoint
+                        </p>
+                    </div>
+                    <div id="text03">
+                        <h2><b>app management</b></h2>
+                        <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. 
+                            We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace.                            
+                        </p>
+                    </div>
+            
+            </div>
+            </div>
+            <div class="servicecontainer">
+                <div id="service1">
+                    <div id="text01">
+                        <h2><b>circle workspace</b></h2>
+                        <p> Display information from applications directly in Circle Workspace. 
+                        At a glance, see all your unread emails, appointments, news, recently 
+                        edited documents and more.</p>
+                    </div>
+                    <div id="text02">
+                        <h2><b>document management</b></h2>
+                        <p>Bring all documents together in one online workplace. So you can work online and 
+                            offline from any device. The documents app bundles and brings structure to Office
+                             365, the fileserver, OneDrive and SharePoint
+                        </p>
+                    </div>
+                    <div id="text03">
+                        <h2><b>app management</b></h2>
+                        <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. 
+                            We make it possible to create a role- and conditions-based workplace that combines all your 
+                            current and future technologies within one workplace.                            
+                        </p>
+                    </div>
+            
+            </div>
+            </div>
+        </div>
+        </div>
+    
         <div class="column-left bb-lightbluegray-fill"></div>
         <section id="section-faq" class="bb-lightbluegray-fill">
             <h1 class="bb-bluegray">faq</h1>

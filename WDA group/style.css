@@ -388,3 +388,52 @@ footer > p > span{
 .drawing{
     width: 100%;
 }
+
+#Our_services{
+background-color:#dcf1f9;
+grid-column: 1 /5;
+}
+
+.hscroll{
+    padding: 1rem 9rem 1rem 9rem;
+    overflow:auto;
+    white-space: nowrap;
+}
+
+.servicecontainer{
+    display: inline-block;   
+    
+}
+#service1{
+    display: grid;
+    padding-left: 2rem;    
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items:safe;
+    white-space: break-spaces;
+    margin: auto;
+    border-radius:2rem;
+    background-color: #799dab;
+}
+
+#text01{
+    grid-column: 1/2;
+    background-color: #799dab;
+    color: #dcf1f9;
+    display: inline-block;
+    border-top-left-radius: 2rem;
+}
+
+#text02{
+    grid-column: 1/2;
+    background-color: #799dab;
+    color: #dcf1f9;
+    border-bottom-left-radius: 2rem;
+
+}
+
+#text03{
+
+    grid-column: 2/3;
+    background-color: #799dab;
+    color: #dcf1f9;
+}
