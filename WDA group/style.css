@@ -48,55 +48,83 @@ h1 {
     grid-template-columns: 9rem repeat(2, 1fr) 9rem;
 }
 
-.waw-c1 {
+#waw-c1-r2{
     grid-column: 2 / 3;
-}
-
-.waw-c2 {
-    grid-column: 3 / 4;
-}
-
-.waw-r1 {
-    grid-row: 1 / 2;
-}
-
-.waw-r2 {
     grid-row: 2 / 3;
 }
 
-.waw-r3 {
+#waw-c1-r3{
+    grid-column: 2 / 3;
     grid-row: 3 / 4;
 }
 
-.waw-r4 {
+#waw-c1-r4{
+    grid-column: 2 / 3;
     grid-row: 4 / 5;
 }
 
-.waw-r5 {
+#waw-c1-r5{
+    grid-column: 2 / 3;
     grid-row: 5 / 6;
 }
 
-.waw-r6 {
+#waw-c1-r6{
+    grid-column: 2 / 3;
     grid-row: 6 / 7;
 }
 
-.waw-r7 {
+#waw-c1-r7{
+    grid-column: 2 / 3;
+    grid-row: 7 / 8;
+}
+
+#waw-c2-r2{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#waw-c2-r3{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+#waw-c2-r4{
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+#waw-c2-r5{
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+#waw-c2-r6{
+    grid-column: 3 / 4;
+    grid-row: 6 / 7;
+}
+
+#waw-c2-r7{
+    grid-column: 3 / 4;
     grid-row: 7 / 8;
 }
 
 .waw-section-header {
     grid-column: 2 / 4;
-    grid-row: 1 / 2s;
+    grid-row: 1 / 2;
 }
 
 .waw-header {
     font-family: calibreBold, Arial, Helvetica, sans-serif;
     font-size: 2.18rem;
+    color: #dcf1f9;
+    background-color: #799dab;
 }
 
 .waw-text {
     font-family: calibreRegular, Arial, Helvetica, sans-serif;
     font-size: 1.875rem;
+    color: #dcf1f9;
+    background-color: #799dab;
 }
 
 .waw-rowspan {
