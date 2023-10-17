@@ -31,7 +31,7 @@
 
 
         <div class="column-left bb-bluegray-fill waw-rowspan"></div>
-        <div class="bb-bluegray-fill" id="waw-c2-c6"></div>
+        <div class="bb-bluegray-fill" id="waw-c2-r6"></div>
         <div class="bb-bluegray-fill" id="waw-c2-r7"></div>
         <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">who we are</h1>
 
