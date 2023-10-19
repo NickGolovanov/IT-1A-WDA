@@ -122,19 +122,44 @@
         <div class="column-left bb-lightbluegray-fill"></div>
         <section id="section-faq" class="bb-lightbluegray-fill">
             <h1 class="bb-bluegray">faq</h1>
+            <?
+            function faqQuestion($question, $answer)
+            {
+                return "
+                    <details class='faq'>
+                        <summary class='question-container'>
+                            <img src='img/question.svg' class='question-icon' alt='Question mark'>
+                            <p class='q-a-text bb-bluegray'>$question</p>
+                            <img src='img/caret.svg' class='question-caret' alt='Dropdown caret'>
+                        </summary>
+                        <div class='answer-container'>
+                            <p class='q-a-text bb-bluegray'>$answer</p>
+                        </div>
+                    </details>
+                ";
+            }
 
-            <details class="faq">
-                <summary class="question-container">
-                    <img src="img/question.svg" class="question-icon" alt="Question mark">
-                    <p class="q-a-text bb-bluegray">question text here</p>
-                    <img src="img/caret.svg" class="question-caret" alt="Dropdown caret">
-                </summary>
-                <div class="answer-container">
-                    <p class="q-a-text bb-bluegray">
-                        answer text here
-                    </p>
-                </div>
-            </details>
+            $questions = array(
+                'What is an intranet?</>Intranet means a closed network that resides on a local network. An intranet acts like a website that only authorized users can access and is generally used by organizations who wish to share knowledge, internal communications, and information with their colleagues.',
+                'What is the difference between the internet and an intranet?</>The main difference between an intranet and the internet is that the former is a closed network, and the latter is a public network. In short, the internet is for all; a company intranet is for a select group of people.',
+                'What is an intranet and an extranet?</>An intranet is a closed network designed to allow an organization to share information and corporate communication among its employees. An extranet is similar to an intranet, but allows third-party entry, so vendors or partners can experience full or selected access.',
+                'What are intranet sites?</>Intranet sites are closed internal networks for authorized members of an organization to share information. They act as a company news channel, an internal communications tool, and a collaboration tool.',
+                'What are intranet applications?</>Intranet applications are software within an intranet like document publishing, communication tools, broadcasts, etc. These applications allow the user to do a range of activities, for example: publish a blog, connect with a colleague, or run employee surveys.',
+                'What is an intranet portal?</>An intranet portal is the access point to the user’s company intranet. It is on the intranet portal where the user can access intranet applications as well as external apps, and information and knowledge that is stored within the intranet itself.',
+                'Can an intranet work without the internet?</>Former on-premise company intranets could operate without internet. But for a wide range of reasons, the majority of company intranet applications are now cloud-based, so an internet connection is necessary.',
+                'Can an intranet be accessed remotely?</>Yes, an intranet can be accessed on a range of devices, regardless of location – all that is required is an internet connection. This is ideal for any organization with dispersed or front-line employees who need communication tools and access to organizational information wherever they are.',
+                'What does an intranet do?</>Offering all types of organizational solutions, intranet software can improve employee engagement, aid communication, and increase collaboration. Modern intranets are now mostly cloud-based which allows global organizations to connect, share knowledge, and broadcast news quickly and easily.'
+            );
+
+            foreach ($questions as $questionLine) {
+                $questionLineExploded = explode('</>', $questionLine);
+                $question = strtolower($questionLineExploded[0]);
+                $answer = $questionLineExploded[1];
+                echo faqQuestion($question, $answer);
+            }
+                ?>
+        
+        
         </section>
         <div class="column-right bb-lightbluegray-fill"></div>
 
