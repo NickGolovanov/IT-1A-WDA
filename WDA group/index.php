@@ -69,51 +69,68 @@
         <div id="Our_services">
         <h1 class="bb-bluegray">our services</h1>
         <div class="hscroll">
-            <div class="servicecontainer">
-                <div id="service1">
-                    <div id="text01">
-                        <h2><b>circle workspace</b></h2>
-                        <p> Display information from applications directly in Circle Workspace. 
-                        At a glance, see all your unread emails, appointments, news, recently edited documents and more.</p>
+                <div class="servicecontainer bb-bluegray-fill bb-lightbluegray">
+                    <div class="service">
+                        <div class="serviceinfo">
+                            <h4>circle workspace</h4>
+                            <p>1-50 users 140,00 p/m<br>51-100 users 760,00 p/m</p>
+                        </div>
+                        <div class="feature">
+                            <h4>communication and information</h4>
+                            <p>Display information from applications directly in Circle Workspace.  At a glance, 
+                            see all your unread emails, appointments, news, recently edited documents and more.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>document managementtuff</h4>
+                            <p>Bring all documents together in one online workplace. So you can work online and 
+                                offline from any device. The documents app bundles and brings structure to Office 365, 
+                                the fileserver, OneDrive and SharePoint</p>
+                        </div>
+                        <div class="feature">
+                            <h4>app management</h4>
+                            <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. 
+                                We make it possible to create a role- and conditions-based workplace that combines all your
+                                 current and future technologies within one workplace.
+                            </p>
+                        </div>
                     </div>
-                    <div id="text02">
-                        <h2><b>document management</b></h2>
-                        <p>Bring all documents together in one online workplace. So you can work online and offline from any device. 
-                        The documents app bundles and brings structure to Office 365, the fileserver, OneDrive and SharePoint
-                        </p>
-                    </div>
-                    <div id="text03">
-                        <h2><b>app management</b></h2>
-                        <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. 
-                            We make it possible to create a role- and conditions-based workplace that combines all your current and future technologies within one workplace.                            
-                        </p>
-                    </div>
-            
+                </div>
+                <div class="servicecontainer bb-bluegray-fill bb-lightbluegray">
+                    <div class="service">
+                        <div class="serviceinfo">
+                            <h4>circle d.o.t.s.</h4>
+                            <p>1-50 users 180,00 p/m<br>51-100 users 799,00 p/m</p>
+                        </div>
+                        <div class="feature">
+                            <h4>internal communications</h4>
+                            <p>Keep everyone informed, no matter the change, things change especially in the world today.
+                                 Keeping everyone on the same page is a challenge for global businesses. Circle D.O.T.S. 
+                                 makes it easy to target and distribute news to the right people, analyse the impact and 
+                                 optimize the message. The result? Everyone gets where you're going.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>knowledge management</h4>
+                            <p>When people say “I love my job”, they're not talking about the 7.6 hours per week spent
+                                trying to find information they need to do their work. Circle D.O.T.S. brings all your
+                                isparate resources, applications and knowledge together in one easily structured and 
+                                searchable home.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>connect and engage</h4>
+                            <p>Connect your colleagues and engage communities. If people don't know each other, they can't 
+                                trust each other. If teams don't know what they're doing, they can't help each other. Circle D.O.T.S.
+                                 connects teams and people in an organic way by letting them form Channels and Pages around projects, 
+                                 interests or social initiatives. No more unfamiliar faces, even if you're fully remote.</p>
+                        </div>
+                        <div class="feature">
+                            <h4>analyze and optimize</h4>
+                            <p>For a better working environment, what can be measured, can be improved. Circle D.O.T.S.
+                                helps you to shift from a “send and forget” to an “analyze and optimize” mindset, making 
+                                it easier to experiment and evaluate in a data-driven way. The secret weapon? The world's 
+                                friendliest Analytics dashboard.
+                            </p>
+                        </div>
             </div>
-            </div>
-            <div class="servicecontainer">
-                <div id="service1">
-                    <div id="text01">
-                        <h2><b>circle workspace</b></h2>
-                        <p> Display information from applications directly in Circle Workspace. 
-                        At a glance, see all your unread emails, appointments, news, recently 
-                        edited documents and more.</p>
-                    </div>
-                    <div id="text02">
-                        <h2><b>document management</b></h2>
-                        <p>Bring all documents together in one online workplace. So you can work online and 
-                            offline from any device. The documents app bundles and brings structure to Office
-                             365, the fileserver, OneDrive and SharePoint
-                        </p>
-                    </div>
-                    <div id="text03">
-                        <h2><b>app management</b></h2>
-                        <p>Create a workplace in minutes. We also want to make work easy for workplace administrators. 
-                            We make it possible to create a role- and conditions-based workplace that combines all your 
-                            current and future technologies within one workplace.                            
-                        </p>
-                    </div>
-            
             </div>
             </div>
         </div>
