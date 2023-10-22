@@ -211,29 +211,59 @@
             </div>
             <div class="Form">
                 <?php
-                if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                    $name = $_POST['name'];
-                    $company = $_POST['company'];
-                    echo "
+                  if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                    $name = filter_input(INPUT_POST, "name");
+                    $company = filter_input(INPUT_POST, "company");
+                    $service = filter_input(INPUT_POST, "service");
+                    $email = filter_input(INPUT_POST, "email");
+                    
+                    $errorflag = false;
+                    $errors = array();
+                
+                    if (empty($name)) {
+                        $errorflag = true; 
+                        array_push($errors, "Please enter your name.");
+                    }
+                    if (empty($company)) {
+                        $errorflag = true;
+                        array_push($errors, "Please enter your company name.");
+                    }
+                    if (empty($service)) {
+                        $errorflag = true;
+                        array_push($errors, "Please enter the service you're looking for.");
+                    }
+                    if (empty($email)) {
+                        $errorflag = true; 
+                        array_push($errors, "Please enter your email.");
+                    }
+                
+                    if ($errorflag) {
+                        echo "<div class='error'>";
+                        foreach ($errors as $error) {
+                            echo "<p>$error</p>";
+                        }
+                        echo "</div>";
+                    } else {
+                        echo "
                             <div class='confirmation'>
-                                <p>Dear, $name  from $company,</p> 
-                                <p>We received your information about service that you want to purchase.</p>
+                                <p>Dear $name from $company,</p> 
+                                <p>We received your information about the service that you want to purchase.</p>
                                 <p>We will contact you soon.</p>
                             </div>
                         ";
-    
+                    }
                 } 
                 else {
                     echo "
-                            <form action='' method='post'>
-                                Hello I'm <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='name' type='text' name='name' id='name'>
-                                from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name='company' id='company'>
-                                and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='service' type='text' name='service' id='service'>
-                                could you plase get back to me at <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='email' type='email' name='email' id='email'>
-                                <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit'>
-                            </form>
-                        ";
-                    }
+                        <form action='' method='post'>
+                            Hello, I'm <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='name' type='text' name='name' id='name'>
+                            from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name 'company' id='company'>
+                            and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='service' type='text' name='service' id='service'>
+                            could you please get back to me at <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='email' type='email' name='email' id='email'>
+                            <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit'>
+                        </form>
+                    ";
+                }
                 ?>
             </div>
         </div>
