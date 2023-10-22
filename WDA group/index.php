@@ -240,7 +240,7 @@
                     if ($errorflag) {
                         echo "<div class='error'>";
                         foreach ($errors as $error) {
-                            echo "<p>$error</p>";
+                        echo "<p class='error_message'>$error</p>";
                         }
                         echo "</div>";
                     } else {
@@ -257,7 +257,7 @@
                     echo "
                         <form action='' method='post'>
                             Hello, I'm <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='name' type='text' name='name' id='name'>
-                            from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name 'company' id='company'>
+                            from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name='company' id='company'>
                             and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='service' type='text' name='service' id='service'>
                             could you please get back to me at <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='email' type='email' name='email' id='email'>
                             <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit'>

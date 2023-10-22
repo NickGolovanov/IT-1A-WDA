@@ -228,6 +228,12 @@ form {
     font-family: calibreRegular;
 }
 
+.error_message{
+    color: #799dab;
+    font-size: 5rem;
+    font-family: calibreRegular;
+}
+
 .confirmation {
     color: #799dab;
     font-size: 5rem;
