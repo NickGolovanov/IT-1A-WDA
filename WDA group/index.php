@@ -19,6 +19,16 @@
         <a href="" class="headerText">contact us</a>
     </div>
     <div class="gridContainer">
+        <div class="column-left bb-lightbluegray-fill"></div>
+        <div class="left bb-lightbluegray-fill">
+            <img class="logo" src="img/logo.png">
+            <p class="bb-bluegray slogan">specialized business software solutions</p>
+        </div>
+        <div class="right bb-lightbluegray-fill">
+            <img class="drawing" src="img/drawing.svg">
+        </div>
+        <div class="column-right bb-lightbluegray-fill"></div>
+
 
         <div class="column-left bb-bluegray-fill waw-rowspan"></div>
         <div class="bb-bluegray-fill" id="waw-c2-c6"></div>
