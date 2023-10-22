@@ -280,17 +280,181 @@ footer > p > span{
     font-weight: 600;
 }
 /* testimonials */
-.testimonials{
-    grid-column: 2 / 4;
+.testimonials {
+    grid-column: 2 / 5;
+    background-color: #799dab;
+    padding-bottom: 7rem;
+    padding-top: 5rem;
 }
-.tscroll{
-    background-color: #dcf1f9;
-    margin: 3rem 3rem 3rem 3rem;
-    gap: 2em;
-    overflow:auto;
+
+.tScroll {
+    margin-top: 7rem;
+    gap: 10em;
+    overflow: auto;
     white-space: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    background-color: #799dab;
+    padding-bottom: 2rem;
+}
+
+.tItem {
+    display: inline-block;
+    background-color: #dcf1f9;
+    width: 40%;
+    border-radius: 1rem;
+    font-family: calibreRegular;
+    src: url(fonts/Calibre-Regular.otf);
+    font-size: 2rem;
+
+}
+
+.tItem+.tItem {
+    margin-left: 3rem;
+}
+
+.tEmptyContainer {
+    grid-column: 1/2;
+    background-color: #799dab;
+}
+
+.tGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.tAuthor {
+    grid-column: 1/2;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.tReview {
+    white-space: break-spaces;
+    grid-column: 1/4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.tScroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #799dab;
+    border-radius: 10px;
+}
+
+.tScroll::-webkit-scrollbar {
+    width: 10px;
+    background-color: #799dab;
+
+}
+
+.tScroll::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dcf1f9;
+    margin-top: 2rem;
+}
+
+/* homepage */
+.left {
+    grid-column: 2/3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 100%;
+    border-bottom: #799dab 0.5rem solid;
+
+    padding-bottom: 2.0625rem;
+}
+
+.slogan {
+    font-family: calibreRegular;
+    font-weight: 500;
+    font-size: 2.1875rem;
+
+    margin-top: 1.25rem;
+}
+
+.right {
+    text-align: right;
+}
+
+.drawing{
     width: 100%;
 }
-.titem{
-    display: inline-block;
+
+
+#Our_services{
+    grid-column: 1 /5;
+}
+
+.hscroll{
+    padding: 1rem 9rem 1rem 9rem;
+    overflow:auto;
+    white-space: nowrap;
+}
+
+/* CONTAINER */
+.servicecontainer{
+    display: inline-block;  
+    padding: 2.875rem;
+
+    border-radius: 2rem; 
+    white-space: wrap;    
+}
+
+/*INSIDE CONTAINER */
+.service {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    column-gap: 5.375rem;
+    width: 80.875rem;
+    height: 43.9375rem;
+}
+
+
+.serviceinfo {
+    grid-row: 1 / 2;
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: 28rem 1fr 28rem;
+}
+
+.serviceinfo > h4 {
+    font-family: calibreBold, Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    grid-column: 1 / 2;
+    text-align: center;
+
+}
+
+.serviceinfo > p {
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    font-size: 1.875rem;
+    grid-column: -2 / -1;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* FEATURES */
+@font-face {
+    font-family: calibreMedium;
+    src: url(/fonts/Calibre-Medium.otf);
+}
+
+.feature > h4 {
+    font-family: calibreMedium, Arial, Helvetica, sans-serif;
+    font-size: 2.1875rem;
+}
+
+.feature > p {
+    font-family: calibreRegular, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
