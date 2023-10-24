@@ -138,7 +138,7 @@ h1 {
 /* BODY LAYOUT */
 #section-faq {
     padding: 1.25rem 0rem 4rem 0rem;
-    row-gap: 1.6rem;
+    row-gap: 0.625rem;
 
     display: flex;
     flex-direction: column;
@@ -452,7 +452,7 @@ footer > p > span{
 /* FEATURES */
 @font-face {
     font-family: calibreMedium;
-    src: url(/fonts/Calibre-Medium.otf);
+    src: url(fonts/Calibre-Medium.otf);
 }
 
 .feature > h4 {
