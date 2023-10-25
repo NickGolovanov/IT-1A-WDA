@@ -134,8 +134,23 @@
             </div>
             </div>
         </div>
+     
         
-    
+     </div>
+
+   
+        
+    </div>
+
+    <div class="Our_Work">
+
+         <div class="background">
+         <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
+
+            <img class="dash" src="dash1.jpeg" alt="image" height="600" width="1200">
+        </div>
+    </div>
+
         <div class="column-left bb-lightbluegray-fill"></div>
         <section id="section-faq" class="bb-lightbluegray-fill">
             <h1 class="bb-bluegray">faq</h1>

@@ -135,6 +135,30 @@ h1 {
     grid-row: 1 / 8;
 }
 
+/* Our Work Section */
+
+.Our_Work{
+    grid-column: 1/5;
+    width: 100%;
+   
+}
+.background{
+display: grid;
+width: 100%;
+height: 100%;
+grid-template-columns: 9rem repeat(2, 1fr) 9rem;
+
+
+flex-direction: column;
+align-items: flex-start;
+border-radius: var(--pos, 0px);
+
+background: var(--bb-bluegray, #799DAB);
+}
+
+.dash{
+    grid-column: 2 / 5;
+}
 /* BODY LAYOUT */
 #section-faq {
     padding: 1.25rem 0rem 4rem 0rem;
@@ -464,3 +488,4 @@ footer > p > span{
     font-family: calibreRegular, Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
+
