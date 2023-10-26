@@ -136,11 +136,7 @@
         </div>
      
         
-     </div>
-
-   
-        
-    </div>
+     
 
     <div class="Our_Work">
 
