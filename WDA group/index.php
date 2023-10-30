@@ -151,10 +151,18 @@
         <div class="Our_Work" id="our_work">
 
             <div class="background">
-                <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
 
-                <img class="dash" src="dash1.jpeg" alt="image" height="600" width="1200">
-            </div>
+              <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
+              <div class="xScroll">
+                   <div class="xItem">                      
+                         <img class="dash" src="img/coding-background.jpg" alt="image" height="450" width="900">                     
+                         <img class="meetingg" src="img/meetingg.jpg" alt="image" height="450" width="900">
+                         <img class="biz" src="img/biz.jpg" alt="image" height="450" width="900">
+                         <img class="office" src="img/office.webp" alt="image" height="450" width="900">
+                       
+                   </div>
+              </div>
+           </div>
         </div>
 
         <div class="column-left bb-lightbluegray-fill"></div>
