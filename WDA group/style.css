@@ -50,22 +50,22 @@ h1 {
 
 #waw-c1-r2{
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 #waw-c1-r3{
     grid-column: 2 / 3;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 #waw-c1-r4{
     grid-column: 2 / 3;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 #waw-c1-r5{
     grid-column: 2 / 3;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 #waw-c1-r6{
@@ -75,43 +75,43 @@ h1 {
 
 #waw-c1-r7{
     grid-column: 2 / 3;
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
     padding-bottom: 2.5rem;
 }
 
 #waw-c2-r2{
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 3 / 4;
 }
 
 #waw-c2-r3{
     grid-column: 3 / 4;
-    grid-row: 3 / 4;
+    grid-row: 4 / 5;
 }
 
 #waw-c2-r4{
     grid-column: 3 / 4;
-    grid-row: 4 / 5;
+    grid-row: 5 / 6;
 }
 
 #waw-c2-r5{
     grid-column: 3 / 4;
-    grid-row: 5 / 6;
+    grid-row: 6 / 7;
 }
 
 #waw-c2-r6{
     grid-column: 3 / 4;
-    grid-row: 6 / 7;
+    grid-row: 7 / 8;
 }
 
 #waw-c2-r7{
     grid-column: 3 / 4;
-    grid-row: 7 / 8;
+    grid-row: 8 / 9;
 }
 
 .waw-section-header {
     grid-column: 2 / 4;
-    grid-row: 1 / 2;
+    grid-row: 2 / 3;
     padding-top: 2.5rem;
     padding-bottom: 3rem;
 }
@@ -132,7 +132,7 @@ h1 {
 }
 
 .waw-rowspan {
-    grid-row: 1 / 8;
+    grid-row: 2 / 9;
 }
 
 /* Our Work Section */
