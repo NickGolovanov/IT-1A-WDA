@@ -244,10 +244,10 @@
             <div class="Form">
                 <?php
                 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-                    $name = filter_input(INPUT_POST, "name");
-                    $company = filter_input(INPUT_POST, "company");
-                    $service = filter_input(INPUT_POST, "service");
-                    $email = filter_input(INPUT_POST, "email");
+                    $name = filter_input(INPUT_POST, "name", FILTER_SANITIZE_SPECIAL_CHARS);
+                    $company = filter_input(INPUT_POST, "company", FILTER_SANITIZE_SPECIAL_CHARS);
+                    $service = filter_input(INPUT_POST, "service", FILTER_SANITIZE_SPECIAL_CHARS);
+                    $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
 
                     $errorflag = false;
                     $errors = array();
