@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Circle Solutions</title>
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="index.js" defer></script>
 </head>
 
 <body>
@@ -18,6 +19,8 @@
             <a href="#section-faq" class="headerText">faq</a>
             <a href="#testimonial" class="headerText">testimonials</a>
             <a href="#contact" class="headerText">contact us</a>
+            <button id="openHeader">open menu</button>
+
         </div>
     </section>
     <div class="gridContainer">

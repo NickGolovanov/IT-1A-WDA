@@ -610,4 +610,21 @@ footer > p > span{
     #home{
         position: relative;
     }
+
+    .header .headerText {
+        display: none;
+    }
+    .header.open .headerText {
+         display: block;
+    }
+    #openHeader{
+        border: none;
+        background: none;
+        font-family: calibreBold;
+        src: url(fonts/Calibre-Bold.otf);
+        text-decoration: none;
+        color: #799dab;
+        font-size: 1.875rem;
+        font-weight: 600;
+    }
 }
