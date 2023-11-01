@@ -69,7 +69,7 @@
             </p>
         <div class="column-right bb-bluegray-fill waw-rowspan"></div>
         <div id="Our_services">
-            <h1 class="bb-bluegray">our services</h1>
+            <h1 class="bb-bluegray service-header">our services</h1>
             <div class="hscroll">
                 <div class="servicecontainer bb-bluegray-fill bb-lightbluegray">
                     <div class="service">
@@ -152,13 +152,13 @@
 
             <div class="background">
 
-              <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
+              <h1 class="work-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
               <div class="xScroll">
                    <div class="xItem">                      
-                         <img class="dash" src="img/coding-background.jpg" alt="image" height="450" width="900">                     
-                         <img class="meetingg" src="img/meetingg.jpg" alt="image" height="450" width="900">
-                         <img class="biz" src="img/biz.jpg" alt="image" height="450" width="900">
-                         <img class="office" src="img/office.webp" alt="image" height="450" width="900">
+                         <img class="work-image dash" src="img/coding-background.jpg" alt="image">                     
+                         <img class="work-image meetingg" src="img/meetingg.jpg" alt="image">
+                         <!-- <img class="work-image biz" src="img/biz.jpg" alt="image"> -->
+                         <img class="work-image office" src="img/office.webp" alt="image">
                        
                    </div>
               </div>
@@ -167,7 +167,7 @@
 
         <div class="column-left bb-lightbluegray-fill"></div>
         <section id="section-faq" class="bb-lightbluegray-fill">
-            <h1 class="bb-bluegray">faq</h1>
+            <h1 class="bb-bluegray faq-header">faq</h1>
             <?
             function faqQuestion($question, $answer)
             {
@@ -215,21 +215,21 @@
             <div class="tScroll">
                 <div class="tItem">
                     <div class="tGrid">
-                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tAuthor">Client name</p>
                         <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
                             consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="tItem">
                     <div class="tGrid">
-                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tAuthor">Client name</p>
                         <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
                             consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
                 </div>
                 <div class="tItem">
                     <div class="tGrid">
-                        <p class="tAuthor">Jan dornbvoos</p>
+                        <p class="tAuthor">Client name</p>
                         <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
                             consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
                     </div>
@@ -286,12 +286,12 @@
                     }
                 } else {
                     echo "
-                        <form action='' method='post'>
-                            Hello, I'm <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='name' type='text' name='name' id='name'>
-                            from <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='company' type='text' name='company' id='company'>
-                            and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='service' type='text' name='service' id='service'>
-                            could you please get back to me at <input required class='bb-lightbluegray-fill bb-bluegray' placeholder='email' type='email' name='email' id='email'>
-                            <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit'>
+                        <form action='' method='post' class='contact-form'>
+                            Hello, I'm <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='name' type='text' name='name' id='name'>
+                            from <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='company' type='text' name='company' id='company'>
+                            and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='service' type='text' name='service' id='service'>
+                            could you please get back to me at <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='email' type='email' name='email' id='email'>
+                            <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit contact-text'>
                         </form>
                     ";
                 }
