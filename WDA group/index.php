@@ -61,7 +61,7 @@
 
             <h2 class="waw-header" id="waw-c2-r2">our vision</h2>
             <p class="waw-text" id="waw-c2-r3">
-                We envision a world where using softwareS
+                We envision a world where using softwares
                 is as easy and naturally as breathing.
             </p>
 
@@ -71,9 +71,9 @@
                 To empowering people & businesses with software solutions.
             </p>
         <div class="column-right bb-bluegray-fill waw-rowspan"></div>
-        <div id="Our_services">
+        <div id="Our_services" class="bb-lightbluegray-fill">
             <h1 class="bb-bluegray service-header">our services</h1>
-            <div class="hscroll">
+            <div class="hscroll no-scrollbar">
                 <div class="servicecontainer bb-bluegray-fill bb-lightbluegray">
                     <div class="service">
                         <div class="serviceinfo">
@@ -86,7 +86,7 @@
                                 see all your unread emails, appointments, news, recently edited documents and more.</p>
                         </div>
                         <div class="feature">
-                            <h4>document managementtuff</h4>
+                            <h4>document management</h4>
                             <p>Bring all documents together in one online workplace. So you can work online and
                                 offline from any device. The documents app bundles and brings structure to Office 365,
                                 the fileserver, OneDrive and SharePoint</p>
@@ -155,15 +155,32 @@
 
             <div class="background">
 
-              <h1 class="work-section-header bb-lightbluegray bb-bluegray-fill">Our Work</h1>
-              <div class="xScroll">
-                   <div class="xItem">                      
-                         <img class="work-image dash" src="img/coding-background.jpg" alt="image">                     
-                         <img class="work-image meetingg" src="img/meetingg.jpg" alt="image">
-                         <!-- <img class="work-image biz" src="img/biz.jpg" alt="image"> -->
-                         <img class="work-image office" src="img/office.webp" alt="image">
-                       
-                   </div>
+              <h1 class="work-section-header bb-lightbluegray bb-bluegray-fill">our work</h1>
+              <div class="xScroll no-scrollbar">                     
+                        <div class="xItem work">
+                            <img class="work-image" src="img/coding-background.jpg" alt="image">
+                            <div class="work-overlay">
+                                <div class="work-overlay-text">BestSoftware B.V.</div>
+                            </div>
+                        </div>
+                        <div class="xItem work">
+                            <img class="work-image" src="img/meetingg.jpg" alt="image">
+                            <div class="work-overlay">
+                                <div class="work-overlay-text">Teams Inc.</div>
+                            </div>
+                        </div>
+                        <div class="xItem work">
+                            <img class="work-image" src="img/office.webp" alt="image">
+                            <div class="work-overlay">
+                                <div class="work-overlay-text">OfficeSolutions B.V.</div>
+                            </div>
+                        </div>    
+                        <div class="xItem work">
+                            <img class="work-image" src="img/biz.jpg" alt="image">
+                            <div class="work-overlay">
+                                <div class="work-overlay-text">Bank Inc.</div>
+                            </div>
+                        </div>                    
               </div>
            </div>
         </div>
@@ -212,10 +229,9 @@
         </section>
         <div class="column-right bb-lightbluegray-fill"></div>
 
-        <div class="tEmptyContainer"></div>
         <div class="testimonials" id="testimonial">
-            <h1 class="waw-section-header bb-lightbluegray bb-bluegray-fill">testimonials</h1>
-            <div class="tScroll">
+            <h1 class="testimonials-header bb-lightbluegray">testimonials</h1>
+            <div class="tScroll no-scrollbar">
                 <div class="tItem">
                     <div class="tGrid">
                         <p class="tAuthor">Client name</p>
@@ -242,7 +258,7 @@
 
         <div class="Contact_form" id="contact">
             <div class="Contact_name">
-                <h1>Contact form</h1>
+                <h1 class="contact-header">contact us</h1>
             </div>
             <div class="Form">
                 <?php
@@ -290,11 +306,11 @@
                 } else {
                     echo "
                         <form action='' method='post' class='contact-form'>
-                            Hello, I'm <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='name' type='text' name='name' id='name'>
+                            hello, i am <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='name' type='text' name='name' id='name'>
                             from <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='company' type='text' name='company' id='company'>
-                            and I'm looking for <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='service' type='text' name='service' id='service'>
+                            and i am looking for <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='service' type='text' name='service' id='service'>
                             could you please get back to me at <input required class='bb-lightbluegray-fill bb-bluegray contact-text' placeholder='email' type='email' name='email' id='email'>
-                            <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit contact-text'>
+                            <input type='submit' class='bb-lightbluegray-fill bb-bluegray contactsubmit contact-text' value='send'>
                         </form>
                     ";
                 }
