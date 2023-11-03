@@ -57,65 +57,77 @@ h1 {
     grid-template-columns: 9rem repeat(2, 1fr) 9rem;
 }
 
-#waw-c1-r2{
+#waw-c1-r2 {
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+    text-align: center;
 }
 
-#waw-c1-r3{
+#waw-c1-r3 {
     grid-column: 2 / 3;
     grid-row: 4 / 5;
+    text-align: center;
 }
 
-#waw-c1-r4{
+#waw-c1-r4 {
     grid-column: 2 / 3;
     grid-row: 5 / 6;
+    text-align: center;
 }
 
-#waw-c1-r5{
+#waw-c1-r5 {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
+    text-align: center;
 }
 
-#waw-c1-r6{
+#waw-c1-r6 {
     grid-column: 2 / 3;
     grid-row: 7 / 8;
+    text-align: center;
 }
 
-#waw-c1-r7{
+#waw-c1-r7 {
     grid-column: 2 / 3;
     grid-row: 8 / 9;
     padding-bottom: 2.5rem;
+    text-align: center;
 }
 
-#waw-c2-r2{
+#waw-c2-r2 {
     grid-column: 3 / 4;
     grid-row: 3 / 4;
+    text-align: center;
 }
 
-#waw-c2-r3{
+#waw-c2-r3 {
     grid-column: 3 / 4;
     grid-row: 4 / 5;
+    text-align: center;
 }
 
-#waw-c2-r4{
+#waw-c2-r4 {
     grid-column: 3 / 4;
     grid-row: 5 / 6;
+    text-align: center;
 }
 
-#waw-c2-r5{
+#waw-c2-r5 {
     grid-column: 3 / 4;
     grid-row: 6 / 7;
+    text-align: center;
 }
 
-#waw-c2-r6{
+#waw-c2-r6 {
     grid-column: 3 / 4;
     grid-row: 7 / 8;
+    text-align: center;
 }
 
-#waw-c2-r7{
+#waw-c2-r7 {
     grid-column: 3 / 4;
     grid-row: 8 / 9;
+    text-align: center;
 }
 
 .waw-section-header {
@@ -123,6 +135,7 @@ h1 {
     grid-row: 2 / 3;
     padding-top: 2.5rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .waw-header {
@@ -130,6 +143,7 @@ h1 {
     font-size: 2.18rem;
     color: #dcf1f9;
     background-color: #799dab;
+    text-align: center;
 }
 
 .waw-text {
@@ -670,6 +684,8 @@ Hover effect
     }
     .tScroll{
         margin-inline: 1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
     }
     .contact-form{
         font-size: 3rem;
