@@ -1,7 +1,14 @@
 const openHeader = document.getElementById('openHeader')
 const header = document.getElementsByClassName("header")
 
-openHeader.addEventListener('click', function(){
+const headerLinks = document.getElementsByClassName('headerText');
+for (let i = 0; i < headerLinks.length; i++) {
+    headerLinks[i].addEventListener('click', function() {
+        toggleMenu();
+    })
+}
+
+function toggleMenu() {
     header[0].classList.toggle("open")
 
     if(header[0].classList.contains("open")) {
@@ -9,4 +16,8 @@ openHeader.addEventListener('click', function(){
     }else {
         openHeader.innerHTML = "open menu"
     }
+}
+
+openHeader.addEventListener('click', function(){
+    toggleMenu();
 })
