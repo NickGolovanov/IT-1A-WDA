@@ -158,25 +158,25 @@
               <h1 class="work-section-header bb-lightbluegray bb-bluegray-fill">our work</h1>
               <div class="xScroll no-scrollbar">                     
                         <div class="xItem work">
-                            <img class="work-image" src="img/coding-background.jpg" alt="image">
+                            <img class="work-image" src="img/coding-background.jpg" alt="BestSoftware B.V.">
                             <div class="work-overlay">
                                 <div class="work-overlay-text">BestSoftware B.V.</div>
                             </div>
                         </div>
                         <div class="xItem work">
-                            <img class="work-image" src="img/meetingg.jpg" alt="image">
+                            <img class="work-image" src="img/meetingg.jpg" alt="Teams Inc.">
                             <div class="work-overlay">
                                 <div class="work-overlay-text">Teams Inc.</div>
                             </div>
                         </div>
                         <div class="xItem work">
-                            <img class="work-image" src="img/office.webp" alt="image">
+                            <img class="work-image" src="img/office.webp" alt="OfficeSolutions B.V.">
                             <div class="work-overlay">
                                 <div class="work-overlay-text">OfficeSolutions B.V.</div>
                             </div>
                         </div>    
                         <div class="xItem work">
-                            <img class="work-image" src="img/biz.jpg" alt="image">
+                            <img class="work-image" src="img/biz.jpg" alt="Bank Inc.">
                             <div class="work-overlay">
                                 <div class="work-overlay-text">Bank Inc.</div>
                             </div>
