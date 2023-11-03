@@ -232,27 +232,35 @@
         <div class="testimonials" id="testimonial">
             <h1 class="testimonials-header bb-lightbluegray">testimonials</h1>
             <div class="tScroll no-scrollbar">
-                <div class="tItem">
-                    <div class="tGrid">
-                        <p class="tAuthor">Client name</p>
-                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
-                            consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <? 
+                function makeTestimonial($author, $review, $stars) {
+                    $starCharacter = '⭐';
+                    $starsRepeated = str_repeat($starCharacter, $stars);
+                    return "
+                    <div class='tItem'>
+                        <div class='tGrid'>
+                            <p class='tAuthor'>$author</p>
+                            <p class='t-stars'>$starsRepeated</p>
+                            <p class='tReview'>$review</p>
+                        </div>
                     </div>
-                </div>
-                <div class="tItem">
-                    <div class="tGrid">
-                        <p class="tAuthor">Client name</p>
-                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
-                            consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="tItem">
-                    <div class="tGrid">
-                        <p class="tAuthor">Client name</p>
-                        <p class="tReview">lorem ipsum dolor sit amet, consectetur adip ip Lorem ipsum dolor sit amet
-                            consectetur, adipisicing eliLorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                    </div>
-                </div>
+                    ";
+                }
+
+                // Read reviews from JSON file
+                $reviewsFile = file_get_contents('reviews.json');
+                $reviews = array();
+                if ($reviewsFile) {
+                    $reviews = json_decode($reviewsFile, true); // decode JSON file into PHP array
+                }
+                ?>
+
+                <?
+                // Display reviews on website
+                foreach ($reviews as $review) {
+                    echo makeTestimonial($review['name'], $review['content'], $review['stars']);
+                }
+                ?>
             </div>
         </div>
 
