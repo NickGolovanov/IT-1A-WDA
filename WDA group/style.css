@@ -688,6 +688,9 @@ Hover effect
         padding-left: 0rem;
         padding-right: 0rem;
     }
+    .testimonials-header{
+        font-size: 4rem;
+    }
     .contact-form{
         font-size: 3rem;
     }
