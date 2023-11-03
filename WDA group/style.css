@@ -481,7 +481,8 @@ footer > p > span{
     padding: 2.875rem;
 
     border-radius: 2rem; 
-    white-space: wrap;    
+    white-space: wrap; 
+    height: 40rem;   
 }
 
 /*INSIDE CONTAINER */
@@ -718,5 +719,9 @@ Hover effect
         padding-left: 0rem;
         padding-right: 0rem;
         text-align: center;
+    }
+
+    .servicecontainer {
+        height: 85rem;
     }
 }
